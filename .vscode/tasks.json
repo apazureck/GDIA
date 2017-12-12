@@ -1,0 +1,27 @@
+{
+    "version": "0.1.0",
+    "command": "gcc",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "args": [
+        "${file}",
+        "-g",
+        "-o",
+        "bin\\out.exe"
+    ],
+    "problemMatcher": [
+        {
+            "fileLocation": "absolute",
+            "owner": "gcc",
+            "pattern": {
+                "regexp": "^(.+?):(\\d+):(\\d+): (\\w+): (.*)$",
+                "file": 1,
+                "line": 2,
+                "column": 3,
+                "message": 5,
+                "severity": 4
+            }
+        }
+    ],
+    "echoCommand": true
+}
