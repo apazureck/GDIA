@@ -4,6 +4,7 @@
         {
             "type": "gdb",
             "request": "launch",
+            "gdbpath": "C:/toolchain/mingw/mingw32/bin/gdb",
             "name": "Launch Program",
             "target": "out.exe",
             "cwd": "${workspaceRoot}/bin",

@@ -3,5 +3,12 @@
         "stdio.h": "c",
         "cstdio": "c"
     },
-    "C_Cpp.intelliSenseEngineFallback": "Enabled"
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "cppcheck.lintingEnabled": true,
+    "cppcheck.enable": true,
+    "cppcheck.includePaths": [
+        "C:/toolchain/mingw/mingw32/i686-w64-mingw32/include"
+    ],
+    "cppcheck.language": "c",
+    "cppcheck.force": true
 }

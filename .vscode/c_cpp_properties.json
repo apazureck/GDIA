@@ -48,8 +48,8 @@
         {
             "name": "Win32",
             "includePath": [
-                "c:/Repos/GDIA",
-                "C:/mingw/mingw32/lib/gcc/i686-w64-mingw32/7.1.0/include"
+                "c:/dev/GDIA",
+                "C:/toolchain/mingw/mingw32/lib/gcc/i686-w64-mingw32/7.1.0/include"
             ],
             "defines": [
                 "_DEBUG",
@@ -58,8 +58,8 @@
             "intelliSenseMode": "clang-x64",
             "browse": {
                 "path": [
-                    "c:/Repos/GDIA",
-                    "C:/mingw/mingw32/lib/gcc/i686-w64-mingw32/7.1.0/include"
+                    "c:/dev/GDIA",
+                    "C:/toolchain/mingw/mingw32/lib/gcc/i686-w64-mingw32/7.1.0/include"
                 ],
                 "limitSymbolsToIncludedHeaders": true,
                 "databaseFilename": ""
