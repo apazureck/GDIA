@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    for (char i = 0; i < 128; i++)
+    for (unsigned char i = 0; i < 128; i++)
     {
         printf("%d: %c\n", i, i);
     }
